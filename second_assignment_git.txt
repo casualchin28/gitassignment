@@ -1,0 +1,54 @@
+cd gitassignment/
+   47  ls
+   48  git checkout -b develop
+   49  git checkout -b feature1
+   50  git checkout -b feature2
+   51  git checkout develop
+   52  ls
+   53  git branch
+   54  ls
+   55  git rm
+   56  git rm -f .
+   57  git rm -fr .
+   58  ls
+   59  git branch
+   60  vi develop.txt
+   61  ls
+   62  git stash 
+   63  git branch feature1
+   64  git checkout feature1
+   65  ls
+   66  git rm -fr .
+   67  ls
+   68  vi new.txt
+   69  git add .
+   70  git commit -m "checking in new.txt file"
+   71  git push
+   72  git pushorigin feature1
+   73  git push origin feature1
+   74  git checkout develop
+   75  git unstash
+   76  git --help
+   77  git help stash
+   78  git stash pop
+   79  git stash pop stash@{0}
+   80  git help stash
+   81  git stash show
+   82  git branch
+   83  ls
+   84  vi develop.txt
+   85  ls
+   86  git stash help
+   87  git stash branch develop
+   88  git stash save
+   89  git stash list
+   90  ls
+   91  git rm -fr .
+   92  git stash list
+   93  git stash pop 0
+   94  ls
+   95  git add .
+   96  git commit -m "unstashed file checkin"
+   97  git push
+   98  git push origin develop
+   99  history
