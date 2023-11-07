@@ -1,0 +1,27 @@
+    1  mkdir project
+    2  cd project/
+    3  git 
+    4  git clone git@github.com:casualchin28/gitassignment.git
+    5  ssh-keygen -t rsa -b 4096 -C "casual.ct28@gmail.com"
+    6  ls
+    7  cd /home/ubuntu/.ssh
+    8  ls
+    9  cat id_rsa.pub 
+   10  cd
+   11  cd project/
+   12  git clone git@github.com:casualchin28/gitassignment.git
+   13  ls
+   14  cd gitassignment/
+   15  git checkout -b first-branch
+   16  ls
+   17  vi Code.txt
+   18  vi Log.txt
+   19  vi output.txt
+   20  ls
+   21  git commit -m "first commit"
+   22  git add .
+   23  git commit -m "first commit"
+   24  git push
+   25  git push origin first-branch
+   26  git history
+   27  history
