@@ -1,0 +1,56 @@
+112  mkdir gitassignment3
+  113  ls
+  114  cd gitassignment3/
+  115  ls
+  116  git branch
+  117  git clone git@github.com:casualchin28/gitassignment3.git
+  118  git branch
+  119  ls
+  120  cd gitassignment3/
+  121  ls
+  122  git branch
+  123  git checkout -b master
+  124  git branch 
+  125  ls
+  126  git branch 
+  127  vi main.txt
+  128  git add .
+  129  git commit -m "first commit"
+  130  git push
+  131  ls
+  132  git branch
+  133  git checkout -b develop
+  134  ls
+  135  git rm -rf .
+  136  ls
+  137  git checkout -b f1
+  138  ls
+  139  git checkout -b f2
+  140  git checkout develop
+  141  ls
+  142  vi develop.txt
+  143  git add . ; git commit -m "develope file checkin" ; git push origin develop
+  144  ls
+  145  git checkout f1
+  146  ls
+  147  git rm -rf .
+  148  git commit -m "branch commit" ; git push origin f1
+  149  ls
+  150  git checkout f2
+  151  ls
+  152  git rm -rf .
+  153  git commit -m "branch commit" ; git push origin f2
+  154  ls
+  155  git checkout f2
+  156  ls
+  157  git branch --help
+  158  git branch -d f2
+  159  git checkout master
+  160  git branch -d f2
+  161  git branch -D f2
+  162  git commit -m "branch deleted"
+  163  git push
+  164  git branch
+  165  git branch -a
+  166  git push origin -d f2
+  167  history
